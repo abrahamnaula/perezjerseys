@@ -4,9 +4,7 @@ module.exports = {
     'es2021': true,
     'node': true,
   },
-  'extends': [
-    'google',
-  ],
+  'extends': ['google', 'plugin:storybook/recommended'],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaVersion': 12,
